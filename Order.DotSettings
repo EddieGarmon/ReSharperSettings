@@ -151,7 +151,7 @@
         &lt;Name /&gt;&#xD;
       &lt;/Entry.SortBy&gt;&#xD;
     &lt;/Entry&gt;&#xD;
-    &lt;Entry DisplayName="Constructors" Priority="10"&gt;&#xD;
+    &lt;Entry DisplayName="Constructors" Priority="100"&gt;&#xD;
       &lt;Entry.Match&gt;&#xD;
         &lt;Kind Is="Constructor" /&gt;&#xD;
       &lt;/Entry.Match&gt;&#xD;
