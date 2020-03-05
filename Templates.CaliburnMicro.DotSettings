@@ -1,4 +1,34 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/CustomProperties/=FileName/@EntryIndexedValue">Screen</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Description/@EntryValue">Caliburn.Micro Screen</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Class/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Class/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Class/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Class/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Namespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Namespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Namespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Scope/=E7CFFE18D9B99549AE3902238EDA927F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Scope/=E7CFFE18D9B99549AE3902238EDA927F/Type/@EntryValue">InXamlCSharpProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Text/@EntryValue">using System.Collections.Generic;&#xD;
+using Caliburn.Micro;&#xD;
+&#xD;
+namespace $Namespace$&#xD;
+{&#xD;
+&#xD;
+	public class $Class$ : Screen&#xD;
+	{&#xD;
+&#xD;
+	}&#xD;
+&#xD;
+}</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
