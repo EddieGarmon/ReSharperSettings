@@ -1,4 +1,70 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/CustomProperties/=FileName/@EntryIndexedValue">MenuViewModel</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Description/@EntryValue">Caliburn.Micro Menu ViewModel</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Field/=Namespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Field/=Namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Field/=Namespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Field/=Namespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Scope/=E7CFFE18D9B99549AE3902238EDA927F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Scope/=E7CFFE18D9B99549AE3902238EDA927F/Type/@EntryValue">InXamlCSharpProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Text/@EntryValue">using System.Collections.ObjectModel;&#xD;
+using System.Windows.Input;&#xD;
+using Caliburn.Micro;&#xD;
+&#xD;
+namespace $Namespace$&#xD;
+{&#xD;
+    public class MenuViewModel : PropertyChangedBase&#xD;
+    {&#xD;
+&#xD;
+        private ICommand _command;&#xD;
+        private bool _isChecked;&#xD;
+        private bool _isEnabled = true;&#xD;
+        private bool _isVisible = true;&#xD;
+        private string _menuText;&#xD;
+&#xD;
+        public MenuViewModel(string menuText) {&#xD;
+            _menuText = menuText;&#xD;
+        }&#xD;
+&#xD;
+        public ObservableCollection&lt;MenuViewModel&gt; Children { get; } = new ObservableCollection&lt;MenuViewModel&gt;();&#xD;
+&#xD;
+        public ICommand Command {&#xD;
+            get =&gt; _command;&#xD;
+            set =&gt; Set(ref _command, value);&#xD;
+        }&#xD;
+&#xD;
+        public bool IsChecked {&#xD;
+            get =&gt; _isChecked;&#xD;
+            set =&gt; Set(ref _isChecked, value);&#xD;
+        }&#xD;
+&#xD;
+        public bool IsEnabled {&#xD;
+            get =&gt; _isEnabled;&#xD;
+            set =&gt; Set(ref _isEnabled, value);&#xD;
+        }&#xD;
+&#xD;
+        public bool IsSeparator {&#xD;
+            get =&gt; _menuText == "-";&#xD;
+        }&#xD;
+&#xD;
+        public bool IsVisible {&#xD;
+            get =&gt; _isVisible;&#xD;
+            set =&gt; Set(ref _isVisible, value);&#xD;
+        }&#xD;
+&#xD;
+        public string MenuText {&#xD;
+            get =&gt; _menuText;&#xD;
+            set =&gt; Set(ref _menuText, value);&#xD;
+        }&#xD;
+&#xD;
+    }&#xD;
+}</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
