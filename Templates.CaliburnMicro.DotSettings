@@ -1,0 +1,186 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Description/@EntryValue">Caliburn.Micro Bindable Property</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=Property/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=Property/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=storage/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=storage/Expression/@EntryValue">decapitalize(Property)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=storage/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=storage/Order/@EntryValue">2</s:Int64>
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=Type/@KeyIndexDefined">True</s:Boolean>
+	
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=Type/InitialRange/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Field/=Type/Order/@EntryValue">0</s:Int64>
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">6.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Shortcut/@EntryValue">cmprop</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C0C9ACEA534F4B8915620E7A290B26/Text/@EntryValue">private $Type$ _$storage$;&#xD;
+public $Type$ $Property$ {&#xD;
+	get =&gt; _$storage$;&#xD;
+	set =&gt; Set(ref _$storage$, value);&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/CustomProperties/=FileName/@EntryIndexedValue">Screen</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Description/@EntryValue">Caliburn.Micro Screen</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Class/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Class/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Class/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Class/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Namespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Namespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Field/=Namespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Scope/=E7CFFE18D9B99549AE3902238EDA927F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Scope/=E7CFFE18D9B99549AE3902238EDA927F/Type/@EntryValue">InXamlCSharpProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C96D8C2B6EC4D4C89D6FE2B29B48FC6/Text/@EntryValue">using System.Collections.Generic;&#xD;
+using Caliburn.Micro;&#xD;
+&#xD;
+namespace $Namespace$&#xD;
+{&#xD;
+&#xD;
+	public class $Class$ : Screen&#xD;
+	{&#xD;
+&#xD;
+	}&#xD;
+&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/CustomProperties/=FileName/@EntryIndexedValue">MenuViewModel</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Description/@EntryValue">Caliburn.Micro Menu ViewModel</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Field/=Namespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Field/=Namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Field/=Namespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Field/=Namespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Scope/=E7CFFE18D9B99549AE3902238EDA927F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Scope/=E7CFFE18D9B99549AE3902238EDA927F/Type/@EntryValue">InXamlCSharpProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A12AEF6CDD6C89438AD88E818BADCC20/Text/@EntryValue">using System.Collections.ObjectModel;&#xD;
+using System.Windows.Input;&#xD;
+using Caliburn.Micro;&#xD;
+&#xD;
+namespace $Namespace$&#xD;
+{&#xD;
+    public class MenuViewModel : PropertyChangedBase&#xD;
+    {&#xD;
+&#xD;
+        private ICommand _command;&#xD;
+        private bool _isChecked;&#xD;
+        private bool _isEnabled = true;&#xD;
+        private bool _isVisible = true;&#xD;
+        private string _menuText;&#xD;
+&#xD;
+        public MenuViewModel(string menuText) {&#xD;
+            _menuText = menuText;&#xD;
+        }&#xD;
+&#xD;
+        public ObservableCollection&lt;MenuViewModel&gt; Children { get; } = new ObservableCollection&lt;MenuViewModel&gt;();&#xD;
+&#xD;
+        public ICommand Command {&#xD;
+            get =&gt; _command;&#xD;
+            set =&gt; Set(ref _command, value);&#xD;
+        }&#xD;
+&#xD;
+        public bool IsChecked {&#xD;
+            get =&gt; _isChecked;&#xD;
+            set =&gt; Set(ref _isChecked, value);&#xD;
+        }&#xD;
+&#xD;
+        public bool IsEnabled {&#xD;
+            get =&gt; _isEnabled;&#xD;
+            set =&gt; Set(ref _isEnabled, value);&#xD;
+        }&#xD;
+&#xD;
+        public bool IsSeparator {&#xD;
+            get =&gt; _menuText == "-";&#xD;
+        }&#xD;
+&#xD;
+        public bool IsVisible {&#xD;
+            get =&gt; _isVisible;&#xD;
+            set =&gt; Set(ref _isVisible, value);&#xD;
+        }&#xD;
+&#xD;
+        public string MenuText {&#xD;
+            get =&gt; _menuText;&#xD;
+            set =&gt; Set(ref _menuText, value);&#xD;
+        }&#xD;
+&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/CustomProperties/=FileName/@EntryIndexedValue">AppBootstrapper</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Description/@EntryValue">Caliburn.Micro Application Bootstrapper</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Field/=Namespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Field/=Namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Field/=Namespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Field/=Namespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Reformat/@EntryValue">True</s:Boolean>
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Scope/=E7CFFE18D9B99549AE3902238EDA927F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Scope/=E7CFFE18D9B99549AE3902238EDA927F/Type/@EntryValue">InXamlCSharpProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF473414031BBE4F827451737DD11798/Text/@EntryValue">using System;&#xD;
+using System.Collections.Generic;&#xD;
+using System.Windows;&#xD;
+using Caliburn.Micro;&#xD;
+&#xD;
+namespace $Namespace$ &#xD;
+{&#xD;
+    public class AppBootstrapper : BootstrapperBase&#xD;
+    {&#xD;
+&#xD;
+        private SimpleContainer _container;&#xD;
+&#xD;
+        public AppBootstrapper() {&#xD;
+            Initialize();&#xD;
+        }&#xD;
+&#xD;
+        protected override void BuildUp(object instance) {&#xD;
+            _container.BuildUp(instance);&#xD;
+        }&#xD;
+&#xD;
+        protected override void Configure() {&#xD;
+            _container = new SimpleContainer();&#xD;
+&#xD;
+            _container.Singleton&lt;IWindowManager, WindowManager&gt;();&#xD;
+            _container.Singleton&lt;IEventAggregator, EventAggregator&gt;();&#xD;
+&#xD;
+            //_container.Singleton&lt;IShell, ShellViewModel&gt;();&#xD;
+        }&#xD;
+&#xD;
+        protected override IEnumerable&lt;object&gt; GetAllInstances(Type service) {&#xD;
+            return _container.GetAllInstances(service);&#xD;
+        }&#xD;
+&#xD;
+        protected override object GetInstance(Type service, string key) {&#xD;
+            return _container.GetInstance(service, key);&#xD;
+        }&#xD;
+&#xD;
+        protected override void OnStartup(object sender, StartupEventArgs e) {&#xD;
+            //DisplayRootViewFor&lt;IShell&gt;();&#xD;
+        }&#xD;
+&#xD;
+    }&#xD;
+}</s:String></wpf:ResourceDictionary>
